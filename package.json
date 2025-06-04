@@ -1,0 +1,26 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "tsc -b && node dist/bin.js",
+    "test:integration": "./scripts/run-integration.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "@types/express": "^5.0.2",
+    "express": "^5.1.0",
+    "prisma": "^6.9.0",
+    "vitest": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.1"
+  }
+}
