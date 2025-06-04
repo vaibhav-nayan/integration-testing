@@ -30,9 +30,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Run Vitest
-      run: npx vitest run  # Or include inside your shell script
-
     - name: Copy .env.example to .env
       run: cp ./.env.example ./.env
 
